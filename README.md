@@ -87,12 +87,18 @@ whether only one instance of HighScoreComparator is created using the singleton 
 changes the isHeroUpsideDown state in StickHero.
 
 
-How to Use (User Guide to Execute) ->
-(pom.xml file & Source Code has been attached in the zip file)
-Source Code (Main class & other classes) is present inside the src folder inside the main folder
-Type this command to run Java file
+**How to Use (User Guide to Execute) ->** <br>
+Source Code (Main class & other classes) is present inside the src folder inside the main folder <br>
+The images used for the GUI and audio files are present inside the src folder inside the resources folder <br>
+Pre-Requisites --> <br>
+[IntelliJ IDEA](https://www.jetbrains.com/idea/) installed on your machine. (or any Java IDE) <br>
+[Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) installed. <br>
+Add JavaFX library to the project in Project Structure option. <br>
+Add necessary dependencies like Media in pom.xml if you are using maven to run the code. (Already added in the pom.xml uploaded) <br>
+Adjust the package line at the top of each Java file to match your IntelliJ directory structure. <br>
+If you face any difficulty in running the files after following the above steps, create a new "JavaFX" project using your own IntelliJ, create the same java files and copy my code in those files. Ensure that the audio files mentioned above and the image files are present in the resources folder for the code to function correctly. <br>
+Type this command to run Java file <br>
 mvn clean javafx:run
-Ensure that the audio files mentioned above are present in the specified directory for the music controller to function correctly.
 
 Gameplay -->
 1. Click and hold the mouse on the background to extend the stick.
@@ -108,7 +114,6 @@ Features -->
 6. Reviving feature if you have 3 cherries.
 7. JUnit testing incorporated.
 8. Multithreading introduced to run the tests parallely.
-
 
 Assumptions/Points to keep in mind for the Project ->
 1. Note that valid input should be provided like when playing the game.
