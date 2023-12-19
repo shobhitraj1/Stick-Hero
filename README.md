@@ -126,7 +126,8 @@ continuation. Only 5 games can be saved. Games saved before that are removed.
 5. Use the sound control options to mute or unmute the in-game sounds based on your preference.
 6. Strive to achieve a high score and compete against your own best scores and ENJOY!!!
 
-->Follow the steps outlined above to interact with the game application effectively.
+->Follow the steps outlined above to interact with the game application effectively. <br>
+->The UML diagram was made during mid-submission (deadline 1) of the project, so it may differ a little from the final source code.
 
 Conclusion ->
 This Stick Hero game demonstrates the effective use of OOP principles, including interfaces, inheritance, encapsulation & design patterns to 
@@ -134,3 +135,5 @@ create a structured and maintainable codebase. It also has JUnit testing organiz
 The game also incorporates multithreading approach that allows the JUnit tests to run concurrently with the main game, providing a way 
 to test the game's functionality independently and concurrently. It separates concerns into distinct classes, each responsible for 
 specific functionalities, resulting in a well-organized and easy-to-maintain system.
+
+📌 Important: Please make sure to follow the guidelines and policies outlined by the institution regarding the use of shared coursework materials. Use this repository responsibly and avoid any violations of academic integrity. Codes are provided for reference purposes only. It's recommended to understand the solutions and implement them independently.
