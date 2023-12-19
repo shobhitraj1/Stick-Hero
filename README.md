@@ -1,5 +1,6 @@
 # Stick-Hero
-This repository contains the source code for Stick Hero game (adaptation of the popular game with same name) implemented in Java with JavaFX libraries as part of the Advanced Programming course.
+This repository contains the source code for Stick Hero game (adaptation of the popular game with same name) implemented in Java with JavaFX libraries as part of the Advanced Programming course project. It also contains UML Class Diagrams, Use Case Diagrams & Screen Captures of the game.
+
 AP Project (Section A) - Stick Hero Game
 
 Name - Shobhit Raj (shobhit22482@iiitd.ac.in)<br>
